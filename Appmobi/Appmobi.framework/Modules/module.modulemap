@@ -1,0 +1,6 @@
+framework module Appmobi {
+  umbrella header "Appmobi.h"
+
+  export *
+  module * { export * }
+}

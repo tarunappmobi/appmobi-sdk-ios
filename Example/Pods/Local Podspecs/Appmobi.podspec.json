@@ -1,0 +1,25 @@
+{
+  "name": "Appmobi",
+  "version": "1.0.0",
+  "summary": "A short description of Appmobi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://appmobi.com",
+  "license": {
+    "type": "",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "inderpreet-singh": "inderpreet@appmobi.com"
+  },
+  "source": {
+    "git": "/Volumes/Data/AppMobi/Native\\ Plugin/cocoapod/Appmobi",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "ios": {
+    "vendored_frameworks": "Appmobi/Appmobi.framework"
+  }
+}
