@@ -36,7 +36,7 @@
 #define kSecureDataSyncCB @"appMobi.securedata.sync"
 #define kSecureDataKey @"AppMobiCloud.securedData"
 
-#define kUerInputCB @"appMobi.user.input"
+#define kUserInputCB @"appMobi.user.input"
 #define kOAuthProvidersKey @"AppMobiCloud.OAuth.providers"
 
 #define kAppInactive @"appMobi.app.inactive"
