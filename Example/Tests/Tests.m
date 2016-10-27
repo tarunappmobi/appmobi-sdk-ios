@@ -1,8 +1,8 @@
 //
-//  AppmobiTests.m
-//  AppmobiTests
+//  AppmobiSecurityTests.m
+//  AppmobiSecurityTests
 //
-//  Created by inderpreet-singh on 10/18/2016.
+//  Created by inderpreet-singh on 10/27/2016.
 //  Copyright (c) 2016 inderpreet-singh. All rights reserved.
 //
 

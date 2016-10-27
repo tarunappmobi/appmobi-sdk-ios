@@ -1,21 +1,22 @@
 use_frameworks!
 
-target 'Appmobi_Example' do
-  pod 'Appmobi', :path => '../'
+target 'AppmobiSecurity_Example' do
+  pod 'AppmobiSecurity', :path => '../'
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
   pod 'GoogleSignIn'
 
-  target 'Appmobi_Tests' do
+  target 'AppmobiSecurity_Tests' do
     inherit! :search_paths
+
   end
 end
 
 post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |configuration|
-      configuration.build_settings['SWIFT_VERSION'] = "2.3"
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
     end
-  end
 end
