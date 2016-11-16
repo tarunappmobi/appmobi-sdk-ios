@@ -900,6 +900,23 @@
     else
     [self showAlert:@"DeviceId not available"];
 }
+
+#pragma mark - Log Custom/Page/Method Event
+
+-(IBAction) logCustom:(id)sender{
+    AMAnalytics *analytics = [_appmobi analytics];
+    [analytics logCustomEvent:@"OAuth" withValue:@"fail"];
+}
+
+-(IBAction) logPage:(id)sender{
+    AMAnalytics *analytics = [_appmobi analytics];
+    [analytics logPageEvent:@"Login"];
+}
+
+-(IBAction) logMethod:(id)sender{
+    AMAnalytics *analytics = [_appmobi analytics];
+    [analytics logMethodEvent:@"register"];
+}
     
 #pragma mark - LDAP
     

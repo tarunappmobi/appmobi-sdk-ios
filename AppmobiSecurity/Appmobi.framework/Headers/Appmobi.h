@@ -15,6 +15,7 @@
 #import "AMEventDelegate.h"
 #import "AME2EE.h"
 #import "AME2EEMessage.h"
+#import "AMAnalytics.h"
 
 #define kAppmobiInitialize @"appMobi.initialize"
 
@@ -61,6 +62,7 @@ typedef enum oauthProviders
 @property (nonatomic, strong) AMPush* notification;
 @property (nonatomic, strong) AMSecureController *cloudSecure;
 @property (nonatomic, strong) AME2EE *amE2EE;
+@property (nonatomic, strong) AMAnalytics *analytics;
 
 //Appmobi Initialize method returning Appmobi class object
 +(Appmobi*) INIT;
