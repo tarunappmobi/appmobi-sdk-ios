@@ -81,5 +81,7 @@ typedef enum oauthProviders
 -(void) setAMEventDelegate:(id)delegate;
 //Encrypt/Decrypt custom path
 -(void) encryptCustomPath:(BOOL)isEncrypt withPath:(NSString*)path;
+//Check protection status
+-(void) checkProtectionStatus;
 
 @end
