@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'AppmobiSecurity_Example' do
-  pod 'AppmobiSecurity' => '1.1.4'
+  pod 'AppmobiSecurity' => '1.1.5'
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
